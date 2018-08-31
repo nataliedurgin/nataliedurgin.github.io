@@ -1,0 +1,207 @@
+/*************************************
+Natalie Durgin
+January 8, 2015
+Homepage CSS Template
+*************************************/
+
+body 
+{
+    margin: 20px 50px 20px 50px;
+	padding: 0;
+	background: #FFFFFF url(images/cubes.jpg);
+	font: normal small Arial, Helvetica, sans-serif;
+	color:#000000;/*#6F4503*/
+}
+
+h1, h2, h4, h5, h6 
+{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	color:#FFFFFF;
+}
+
+h3 {color:#000000;}
+
+h1, h2, h3 {
+}
+
+h4, h5, h6 {
+}
+
+p, ul, ol, blockquote {
+	margin-top: 0;
+}
+
+a {
+	color: #363636;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+/*************************************
+ Header
+*************************************/
+
+#header {
+	margin: 50px 75px 0px 75px;
+	padding: 5px;
+	background: #000000 /*url(images/couch_25.jpg) repeat*/;
+	border: 5px solid #FFFFFF;
+	border-bottom: none;
+}
+
+#header h1 { 
+	text-align: center;
+	font-size: 2em;
+	margin: 25px 0px 0px 0px;
+}
+
+#header h2 {
+	text-align: center;
+	font-size: 1em;
+	margin: 0px 0px 25px 0px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/*************************************
+ Menu
+*************************************/
+
+#menu {
+	margin: 0px 75px 0px 75px;
+	padding: 10px;
+	background: #4E4E4E;
+	border: 5px solid #FFFFFF;
+	border-top: 2px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;;
+	text-align: center;
+}
+
+#menu ul {
+	display: inline;
+	margin: 0px auto;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+#menu a:hover, #menu .active a {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/************************************* 
+Splash
+*************************************/
+
+#splash {
+	height: 600px;
+	margin: 0px 75px 0px 75px;
+	background: #FFFFFF url(images/mug_shot.jpg);
+	background-position:center; 
+	background-repeat:no-repeat;
+	border-left: 5px solid #FFFFFF;
+	border-right: 5px solid #FFFFFF;
+}
+
+
+/************************************* 
+Content 
+*************************************/
+
+#content {
+	margin: 0px 75px 0px 75px;
+	background: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+
+#content .title {
+	padding: 10px 20px;
+	background: #990000;
+	font-size: 1em;
+}
+
+#content .story {
+	overflow: hidden;
+	padding: 20px;
+	border: 3px solid #000000;
+}
+
+#content h1 {
+	text-align: left;
+	font-size: 1.30em;
+	color: #A00000;
+}
+
+div.figure {
+  float: right;
+  border: #000000 solid;
+  margin: 0.5cm;
+  padding:0.5em;
+}
+
+div.figure p{
+  text-align: center;
+  font-size: small;
+  text-indent: 0;
+}
+
+div.figure1 {
+  text-align: center;
+  font-size: small;
+  text-indent: 0;
+}
+
+div.figure2 {
+  float: left;
+  margin: 0.7em;
+  padding: 0.5em;
+}
+
+/*************************************
+ Footer 
+**************************************/
+
+#footer {
+	margin: 0px 75px 0px 75px;
+	padding: 5px;
+	background: #000000/*#8B4513*//*#996633*/;
+	border: 5px solid #FFFFFF;
+	border-top: none;
+	color: #FFFFFF;
+}
+
+#footer p {
+	margin: 0px auto;
+	padding: 5px;
+	font-size: x-small;
+}
+
+#footer p1 {
+	margin: 0px auto;
+	padding: 5px;
+	font-size: x-small;
+}
+
+#footer a {
+	color: #CCCCCC;
+}
