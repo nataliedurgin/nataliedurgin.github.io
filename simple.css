@@ -8,7 +8,7 @@ body
 {
     margin: 20px 50px 20px 50px;
 	padding: 0;
-	background: #FFFFFF url(images/cubes.jpg);
+	background: #FFFFFF;
 	font: normal small Arial, Helvetica, sans-serif;
 	color:#000000;/*#6F4503*/
 }
@@ -18,10 +18,12 @@ h1, h2, h4, h5, h6
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	color:#FFFFFF;
+	color:#000000;
 }
 
-h3 {color:#000000;}
+h3 {
+     color:#000000;
+}
 
 h1, h2, h3 {
 }
@@ -34,15 +36,15 @@ p, ul, ol, blockquote {
 }
 
 a {
-	color: #363636;
+     color: #363636;
 }
 
 a:hover {
-	text-decoration: none;
+     text-decoration: none;
 }
 
 img {
-	border: none;
+     border: none;
 }
 
 /*************************************
@@ -50,23 +52,23 @@ img {
 *************************************/
 
 #header {
-	margin: 50px 75px 0px 75px;
+	margin: 5px 75px 5px 75px;
 	padding: 5px;
-	background: #000000 /*url(images/couch_25.jpg) repeat*/;
-	border: 5px solid #FFFFFF;
-	border-bottom: none;
+	background: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	/*border-bottom: 5px*/;
 }
 
 #header h1 { 
 	text-align: center;
 	font-size: 2em;
-	margin: 25px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 }
 
 #header h2 {
 	text-align: center;
 	font-size: 1em;
-	margin: 0px 0px 25px 0px;
+	margin: 0px 0px 5px 0px;
 }
 
 #header a {
@@ -81,10 +83,8 @@ img {
 #menu {
 	margin: 0px 75px 0px 75px;
 	padding: 10px;
-	background: #4E4E4E;
-	border: 5px solid #FFFFFF;
-	border-top: 2px solid #FFFFFF;
-	border-bottom: 1px solid #FFFFFF;;
+	background: #FFFFFF /*#4E4E4E*/;
+	border: 2px solid #000000;
 	text-align: center;
 }
 
@@ -101,7 +101,7 @@ img {
 	padding: 10px 20px 10px 20px;
 	text-align: center;
 	text-decoration: none;
-	color: #CCCCCC;
+	color: #000000 /*#CCCCCC*/;
 }
 
 #menu a:hover, #menu .active a {
@@ -116,7 +116,7 @@ Splash
 #splash {
 	height: 600px;
 	margin: 0px 75px 0px 75px;
-	background: #FFFFFF url(images/mug_shot.jpg);
+	background: #FFFFFF;
 	background-position:center; 
 	background-repeat:no-repeat;
 	border-left: 5px solid #FFFFFF;
@@ -129,21 +129,23 @@ Content
 *************************************/
 
 #content {
-	margin: 0px 75px 0px 75px;
+	margin: 5px 75px 5px 75px;
+	padding: 5px;
 	background: #FFFFFF;
-	border: 5px solid #FFFFFF;
+	border: 2px solid #000000;
 }
 
 #content .title {
 	padding: 10px 20px;
-	background: #990000;
+	background: #000000 /*#4E4E4E*/;
+	border: 2px solid #000000;
 	font-size: 1em;
+	color: #FFFFFF
 }
 
 #content .story {
 	overflow: hidden;
 	padding: 20px;
-	border: 3px solid #000000;
 }
 
 #content h1 {
@@ -153,10 +155,10 @@ Content
 }
 
 div.figure {
-  float: right;
-  border: #000000 solid;
+  float: left;
+  border: 2px solid #000000;
   margin: 0.5cm;
-  padding:0.5em;
+  padding:0.25em;
 }
 
 div.figure p{
@@ -184,10 +186,9 @@ div.figure2 {
 #footer {
 	margin: 0px 75px 0px 75px;
 	padding: 5px;
-	background: #000000/*#8B4513*//*#996633*/;
-	border: 5px solid #FFFFFF;
-	border-top: none;
-	color: #FFFFFF;
+	background: #FFFFFF/*#8B4513*//*#996633*/;
+	border: 2px solid #FFFFFF;
+	color: #000000;
 }
 
 #footer p {
