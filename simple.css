@@ -6,7 +6,7 @@ Homepage CSS Template
 
 body 
 {
-    margin: 20px 50px 20px 50px;
+	margin: 20px 50px 20px 50px;
 	padding: 0;
 	background: #FFFFFF;
 	font: normal small Arial, Helvetica, sans-serif;
@@ -47,16 +47,18 @@ img {
      border: none;
 }
 
+tr.row3 td {
+    padding-bottom: 10px;
+}
 /*************************************
  Header
 *************************************/
 
 #header {
-	margin: 5px 75px 5px 75px;
+	margin: 5px 100px 5px 100px;
 	padding: 5px;
 	background: #FFFFFF;
 	border: 2px solid #FFFFFF;
-	/*border-bottom: 5px*/;
 }
 
 #header h1 { 
@@ -81,7 +83,7 @@ img {
 *************************************/
 
 #menu {
-	margin: 0px 75px 0px 75px;
+	margin: 0px 100px 0px 100px;
 	padding: 10px;
 	background: #FFFFFF /*#4E4E4E*/;
 	border: 2px solid #000000;
@@ -109,27 +111,13 @@ img {
 	color: #FFFFFF;
 }
 
-/************************************* 
-Splash
-*************************************/
-
-#splash {
-	height: 600px;
-	margin: 0px 75px 0px 75px;
-	background: #FFFFFF;
-	background-position:center; 
-	background-repeat:no-repeat;
-	border-left: 5px solid #FFFFFF;
-	border-right: 5px solid #FFFFFF;
-}
-
 
 /************************************* 
 Content 
 *************************************/
 
 #content {
-	margin: 5px 75px 5px 75px;
+	margin: 5px 100px 5px 100px;
 	padding: 5px;
 	background: #FFFFFF;
 	border: 2px solid #000000;
@@ -145,7 +133,6 @@ Content
 
 #content .story {
 	overflow: hidden;
-	padding: 20px;
 }
 
 #content h1 {
@@ -154,11 +141,16 @@ Content
 	color: #A00000;
 }
 
+#content p{
+	text-align: left;
+	margin: 20px
+}
+
 div.figure {
-  float: left;
+  float: right;
   border: 2px solid #000000;
-  margin: 0.5cm;
-  padding:0.25em;
+  margin: 20px;
+  padding: 5px;
 }
 
 div.figure p{
@@ -174,7 +166,7 @@ div.figure1 {
 }
 
 div.figure2 {
-  float: left;
+  float: right;
   margin: 0.7em;
   padding: 0.5em;
 }
@@ -184,7 +176,7 @@ div.figure2 {
 **************************************/
 
 #footer {
-	margin: 0px 75px 0px 75px;
+	margin: 0px 100px 0px 100px;
 	padding: 5px;
 	background: #FFFFFF/*#8B4513*//*#996633*/;
 	border: 2px solid #FFFFFF;
